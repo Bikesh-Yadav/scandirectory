@@ -1,1 +1,2 @@
-# scandirectory
+this is a script that scans a directory for any kind of suspicious file. The script should check the following patterns: .exe, .vbs, .ps1, .bat, .cmd
+If a file match is found in any of these patterns, the script should be able to check the file reputation on virus total and should save a text file which should contain the malicious file name in it. This script should automatically run every 5 hours. 
